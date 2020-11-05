@@ -19,7 +19,7 @@ public class JiraTest {
 		
 		SessionFilter session = new SessionFilter(); // listen and remember if the session was created
 		
-		// 		//Login scenario to Jira to create session using Login API
+		//Login scenario to Jira to create session using Login API
 
 		//relaxedHTTPSValidation(). - workaround HTTPS checks
 		String response = given().header("Content-Type", "application/json").body("{\r\n" + 
